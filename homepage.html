@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>홈페이지</title>
+        <style>
+            html{
+                height: 100%;
+            }
+            body{
+                background: url("cosmos.jpg");
+                margin: 0px;
+                height: 100%;
+            }
+            div{
+                display: inline-block;
+                color: white;
+            }
+            .head{
+                position: absolute;
+                width: 100%;
+                top: 0px;
+                left: 0px;
+                height: 40px;
+                line-height: 40px;
+                color: white;
+                background-color: #323336;
+            }
+            .body{
+                width: 100%;
+                height: 100%;
+                text-align: center;
+            }
+            .contents{
+                top: 40%;
+                position: relative;
+                width: 500px;
+                height: 150px;
+            }
+            .textformat{
+                width: 500px;
+                font-size: 1.7rem;
+            }
+            .btn{
+                position: relative;
+                top: 20px;
+                padding: 10px;
+                border: 1px solid white;
+            }
+            b{
+                color: red;
+            }
+            .menu_group{
+                position: absolute;
+                right: 10px;
+            }
+            .menu{
+                border: 1px solid white;
+                margin-right: 10px;
+            }
+            #star{
+                text-indent: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <div id="star">★</div>
+            <div class="menu_group">
+                <div class="menu">Home</div>
+                <div class="menu">About</div>
+                <div class="menu">Project</div>
+                <div class="menu">Contact</div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="contents">
+                <div class="textformat">안녕하세요. 제 이름은 <b>김재승</b>입니다. <br/>저는 그냥 개발자 입니다.</div>
+                <a href="https://github.com/json-kim" target="_blank"><div class="btn">View My Work</div></a>
+            </div>
+        </div>
+    </body>
+</html>
